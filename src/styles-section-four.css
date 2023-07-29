@@ -1,0 +1,131 @@
+
+       /***************************** Estilos Seccion Four*****************************/
+
+
+        /* Queda como container four */
+        .four{
+          flex-direction: column;
+          padding-top: 1rem;
+          margin-top: 5%;
+          margin-left: 50%;
+          padding-left: 2rem;
+          padding-bottom: 3rem;
+          border-radius: 10px;
+          background-color: #00000c00;
+    }
+
+    .content-items{
+      background-color: inherit;
+    }
+
+    .content-education{
+          margin-top: 2rem;
+          margin-bottom: .3rem;
+          background-color: #00000c; /*inherit*/
+          border-radius: 9px;
+          padding: 1.5rem;
+          width: 85%;
+          box-shadow: 0px 0px 5px 4px rgba(255,255,255,0.33);
+          -webkit-box-shadow: 0px 0px 5px 4px rgba(255,255,255,0.33);
+          -moz-box-shadow: 0px 0px 5px 4px rgba(255,255,255,0.1);
+          transition: .5s ease-in-out;
+    }
+
+    .content-education:hover {
+      background: rgb(34,91,195);
+    }
+
+    .content-education p{
+          color: white;
+          font-family: 'DM Sans', sans-serif;
+          font-size: 1rem;
+          background-color: inherit;
+          /*transition: .5s ease-in-out;*/
+          margin-left: .5rem;
+    }
+
+    .content-education p a{
+      background-color: #00000C;
+      transition: .5s ease-in-out;
+    }
+
+    .content-education a{
+      margin-left: .5rem;
+      margin-bottom: 1rem;
+    }
+
+    .content-education a:link{
+      color:#1252F5;
+    }
+
+    .content-education a:hover{
+      color:#000000; /*#6CABF5*/
+      background: rgb(255, 255, 255); /*rgb(34,91,195)*/
+    }
+
+    .content-education a:visited {
+      color:#6FF509
+    }
+
+    .content-education a:active{
+      color:#7E19FA
+    }
+
+    .link-content-education{
+      border-radius: 3px;
+      margin-top: .5rem;
+      padding:3px 6px;
+    }
+
+      /***************************** Estilos Seccion Five*****************************/
+
+
+  /* Queda como container five */
+  .five{
+      flex-direction: column;
+      padding-top: 1rem;
+      margin-top: 5%;
+      margin-right: 50%;
+      padding-left: 2rem;
+      padding-bottom: 3rem;
+      border-radius: 10px;
+      background-color: #00000c00;
+}
+
+/*Se repiten los esilos de Content-Education */
+    
+
+
+/******************Medias Queries*****************/
+
+
+
+@media(max-width: 414px){
+
+  .four{
+      margin-left: 10%;
+  }
+  .content-education{
+      width: 90%;
+}
+
+  .five{
+      margin-right: 10%;
+  }
+}
+
+
+@media(max-width: 360px){
+  .four{
+      margin-left: 5%;
+  }
+  .content-education{
+      width: 95%;
+}
+
+  .five{
+      margin-right: 5%;
+  }
+}
+
+

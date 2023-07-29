@@ -1,0 +1,40 @@
+.popup{
+    width: 350px;
+    background: #FFF;
+    border-radius: 6px;
+    position: fixed;
+    top: -10%; /*El valor original es 50%  pero se pone a 0, yo lo puse al -10%*/
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    padding: 0 30px  30px;
+    color: #333;
+    visibility: hidden;
+    transition: transform 0.4s, top 0.4s;
+    z-index: 5;
+}
+
+.open-popup{
+    visibility: visible;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.popup img{
+    width: 60px;
+    margin-top: -50px;
+    border-radius: 50%;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.popup h2{
+    font-size: 38px;
+    font-weight: 500;
+    margin: 15px 0 10px;
+    color: #333;
+}
+
+.popup p{
+    color: rgb(9, 82, 122);
+    font-weight: 700;
+}

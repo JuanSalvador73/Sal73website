@@ -1,0 +1,12 @@
+
+    /***************************** Estilos Seccion Third*****************************/
+
+     /* Queda como container third */
+     .third{
+        flex-direction: column;
+        padding-top: 1rem;
+        margin-top: 5%;
+        margin-right: 50%;
+        padding-left: 1.5%;
+        align-items: center;
+  }

@@ -1,0 +1,76 @@
+
+/****************************** Estilos Seccion First Hero******************************/
+
+.section-one--container{
+  width: 660px;
+  margin-top: 5%;
+  margin-left: 10%;
+  padding-left: 1.5%;
+}
+
+.mainTitle{
+  font-size: 5rem;
+  background-image: linear-gradient(333deg, rgba(195,34,151,1) 0%, rgba(95,191,241,0.9856734930300245) 100%);
+  -webkit-background-clip: text;
+  color: transparent;
+}
+
+.subTitle {
+  font-size: 2.5rem;
+  background-image: linear-gradient(333deg, rgba(195,34,151,1) 0%, rgba(95,191,241,0.9856734930300245) 100%);
+  -webkit-background-clip: text;
+  color: transparent;
+}
+
+.center{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.center-six{
+  display: flex;
+  justify-content: center;
+}
+
+
+/******************Medias Queries*****************/
+
+
+
+@media(max-width: 414px){
+  .section{
+      width: 100%;
+  }
+
+  .section-one--container{
+      width: 360px;
+      margin-left: 1.5%;
+  }
+
+  .mainTitle{
+      font-size: 3.8rem;
+  }
+
+  .subTitle {
+      font-size: 2.2rem;
+      text-shadow: 0 0 3px #010451, 0 0 4px #060c1bbe;
+    }
+}
+
+
+@media(max-width: 360px){
+  .section-one--container{
+      width: 330px;
+      margin-left: 1.8%;
+  }
+
+  .mainTitle{
+      font-size: 3rem;
+  }
+
+  .subTitle {
+      font-size: 1.8rem;
+      text-shadow: 0 0 3px #010451, 0 0 4px #060c1bbe;
+    }
+}

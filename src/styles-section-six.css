@@ -1,0 +1,116 @@
+
+ /***************************** Estilos Seccion Six*****************************/
+
+
+    /* Queda como container six */
+    /*Checar si se va a centrar el contenido en el six-container*/
+    .six{
+      flex-direction: column;
+      padding-top: 1rem;
+      justify-content: center;
+      width: 100%;
+}
+
+    .content-experience{
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      justify-content: space-around;
+      margin: 2rem 2rem;
+}
+
+    .box-experience {
+      display: flex;
+      flex-direction: row;
+      border: 1px solid rgb(128, 126, 131);
+      width: 330px;
+      height: 180px;
+      background-color: rgba(21, 114, 206, 0.176);
+      margin-top: 3%;
+      margin-bottom: 3rem;
+      border-radius: 8px;
+      position: relative;
+      /*cursor: pointer;*/
+}
+
+    .box_img__hidden{
+      width: 180px;
+      position: relative;
+      overflow: hidden;
+      cursor: pointer;
+    }
+
+    .box_img__hidden:hover .box_img__aparition{
+      transform: translateY(0px);
+      transition: .5s ease-in-out;
+    }
+
+    .box_img__aparition{
+      position: absolute;
+      width: 180px;
+      height: 180px;
+      transform: translateY(180px);
+      transition: .5s ease-in-out;
+    }
+
+    .box_img__aparition img{
+      margin-left: 2.8rem;
+      width: 180px;
+      height: 200px;
+    }
+    
+
+    .circle{
+      position: absolute;
+      border-radius: 80px;
+      border: 1px dotted gray;
+      margin-top: 2px;
+      background-color: rgba(10, 25, 40, 0.952);
+      width: 30px;
+      height: 30px;
+      top: -18px;
+      left: 10px;
+      z-index: 4;
+}
+
+    .box-history{
+      display: flex;
+      flex-direction: column;
+      margin: 4%;
+      background-color: rgba(21, 114, 206, 0.00);
+}
+
+    .box-history p{
+      margin: .5rem;
+      line-height: 1.2rem;
+      color: white;
+      font-family: 'DM Sans', sans-serif;
+      font-size: .8rem;
+      font-size: 1rem;
+      background-color: rgba(21, 114, 206, 0.00);
+}
+
+
+
+
+
+/******************Medias Queries*****************/
+
+
+
+@media(max-width: 414px){
+
+  .section_title{
+    font-size: 3.1rem;
+    font-weight: 100;
+  }
+}
+
+
+@media(max-width: 360px){
+
+    .section_title{
+        font-size: 2.8rem;
+        font-weight: 100;
+      }
+}

@@ -1,0 +1,464 @@
+
+        /***************************** Estilos Seccion eight*****************************/
+            /* Queda como container Eight */
+
+            .eight{
+              flex-direction: row;
+              justify-content: center;
+              width: 95%;
+              background-color: #030819; /*#030819;*/
+              border-radius: 12px;
+              margin-top: 2rem;
+              z-index: 2;
+            }
+    
+    
+        .content-contact{
+              display: flex;
+              width: 95%;
+              background-color: inherit;
+              margin: 1.2rem;
+              border-radius: 12px;
+            }
+    
+        .content-data{
+              width: 100%;
+              background-color:inherit;
+              border-radius: 12px;
+              margin-top: 2rem;
+            }
+    
+        
+        
+        .contact-form{
+          width: 40%;
+          background-color: inherit;
+          display: flex;
+          border-radius: 12px;
+          margin-top: 2rem;
+        }
+    
+        .form-ctc{
+          background-color: #030819;
+        }
+    
+        form{
+          display: flex;
+          flex-direction: column;
+          color: rgb(255, 255, 255);
+        }
+    
+        form .form__p p{
+          color: #030819;
+        }
+    
+        form .form__p--on p{
+          color: #fcfcfc;
+        }
+    
+        button{
+          color: rgb(0, 0, 0);
+          width: 145px;
+          display: inline;
+        }
+    
+        .content-data{
+          display: flex;
+          align-items: center;
+        }
+    
+        .ctc-data{
+          width: 400px;
+          display: flex;
+          flex-direction: row;
+          background-color: #030819;
+          align-items: center;
+        }
+    
+        .ctc-data img{
+          background-color: inherit;
+          margin: .3rem;
+        }
+    
+        .ctc-data p{
+          margin-left: .5rem;
+          background-color: inherit;
+        }
+    
+    
+        .ctc-data  a{
+          transition: .5s ease-in-out;
+          background-color: inherit;
+        }
+    
+        
+    
+        .ctc-data  a:link{
+          color:#1252F5;
+          background-color: inherit;
+        }
+        .ctc-data  a:hover{
+          color:#6CABF5;
+          background-color: inherit;
+        }
+        .ctc-data  a:visited {
+          color:#6FF509;
+          background-color: inherit;
+        }
+        .ctc-data  a:active{
+          color:#7E19FA;
+          background-color: inherit;
+        }
+        
+    
+        .name_Input{
+          margin-top: .6rem;
+          margin-left: .1rem;
+          background-color: inherit;
+          margin-bottom: .2rem;
+        }
+    
+        .email_Input{
+          margin-top: .6rem;
+          margin-left: .1rem;
+          background-color: inherit;
+          margin-bottom: .2rem;
+        }
+    
+        .comentarios_Input{
+          margin-top: .6rem;
+          margin-left: .1rem;
+          background-color: inherit;
+          margin-bottom: .2rem;
+        }
+    
+        .button-style{
+          display: flex;
+          flex-direction: row;
+          justify-content: space-around;
+          background-color: inherit;
+          margin-bottom: 3.5rem;
+          width: 400px;
+        }
+    
+        .ctc-data img{
+          width: 2rem;
+        }
+    
+        .input_Text{
+          border-radius: 3px;
+          background-color: rgb(22, 54, 102);
+          border: 1px solid white;
+          margin-bottom: 1.5rem;
+          width: 400px;
+          padding: .5rem;
+          color: white;
+        }
+    
+        .input_Email{
+          border-radius: 3px;
+          background-color: rgb(22, 54, 102);
+          border: 1px solid white;
+          margin-bottom: 1.5rem;
+          width: 400px;
+          padding: .5rem;
+          color: white;
+        }
+    
+        .input_TextArea{
+          border-radius: 5px;
+          background-color: rgb(22, 54, 102);
+          border: 1px solid white;
+          margin-bottom: 1.5rem;
+          width: 400px;
+          height: 100px;
+          resize: none;
+          padding: .5rem;
+          color: white;
+        }
+    
+        .btn_send{
+          margin-top: 9px;
+          padding: 3px;
+          border-radius: 4px;
+          background-color: #3e87d6;
+        }
+    
+        .btn_reset{
+          margin-top: 9px;
+          padding: 3px;
+          border-radius: 4px;
+          background-color: #e2b759;
+        }
+    
+        .contact__message{
+          font-size: .9rem;
+          margin-left: 1.8rem;
+          color: rgb(255, 255, 255);
+          margin-bottom: .8rem;
+          border: 1px solid rgb(1, 24, 26);
+          width: 140px;
+          padding: .2rem .2rem .2rem .9rem;
+          border-radius: 3px;
+          background: linear-gradient(to bottom, #0a5f55 0%, #021f4a 100%);
+        }
+    
+        .contact__message_off{
+          font-size: .9rem;
+          margin-left: 1.8rem;
+          color: #030819;
+          margin-bottom: .8rem;
+          border: 1px solid #030819;
+          width: 140px;
+          padding: .2rem .2rem .2rem .9rem;
+          background-color: #030819;
+        }
+    
+        .contact__message_on{
+          font-size: .9rem;
+          margin-left: 1.8rem;
+          color: rgb(255, 255, 255);
+          margin-bottom: .8rem;
+          border: 1px solid rgb(1, 24, 26);
+          width: 140px;
+          padding: .2rem .2rem .2rem .9rem;
+          border-radius: 3px;
+          background: linear-gradient(to bottom, #0a5f55 0%, #021f4a 100%);
+        }
+    
+        .color-red{
+          color:red;
+        }
+    
+        .color-blue{
+          color:blue;
+        }
+    
+    
+    
+    /******************Medias Queries*****************/
+    
+    @media(min-width: 360px){
+      .content-contact{
+        flex-direction: column;
+        justify-content: center;
+        width: 100%;
+        margin: 0;
+        align-items: center;
+      }
+    
+      .content-data{
+        justify-content: center;
+        flex-direction: column;
+        width: 100%;
+        margin-bottom: 1.5rem;
+      }
+    
+      .ctc-data{
+        width: 310px;
+        margin: 0;
+      }
+    
+      .contact-form{
+        padding-left: 0.1rem;
+        padding-right: 0.1rem;
+        justify-content: center;
+        width: 100%;
+      }
+    
+      .input_Text{
+        width: 300px;
+      }
+    
+      .input_Email{
+        width: 300px;
+      }
+    
+      .input_TextArea{
+        width: 300px;
+      }
+    
+      .button-style{
+        width: 300px;
+        justify-content: space-around;
+      }
+    
+      .btn_send{
+        width: 120px;
+      }
+    
+      .btn_reset{
+        width: 120px;
+      }
+    }
+    
+    @media(min-width: 378px){
+      .content-data{
+        justify-content: center;
+        flex-direction: column;
+      }
+    
+      .ctc-data{
+        width: 100%;
+      }
+    
+      .contact-form{
+        width: 100%;
+      }
+    }
+    
+    @media(min-width: 393px){
+      .content-data{
+        justify-content: center;
+        flex-direction: column;
+      }
+    
+      .contact-form{
+        width: 100%;
+      }
+    }
+    
+    @media(min-width: 414px){
+    
+      .content-contact{
+          margin: 0;
+      }
+    
+      .content-data{
+        width: 100%; /*Antes 50%*/
+      }
+    
+      .center{
+        display: flex;
+        align-items: center;
+        height: auto;
+      }
+    
+      .eight{
+        flex-direction: column;
+        align-content: center;
+      }
+      .section{
+        width: 100%;
+      }
+    
+      .content-contact{
+        width: 100%;
+      }
+    
+      .content-data{
+        width: 100%; /*Antes 90%*/
+      }
+    
+      .ctc-data{
+        width: 350px;
+      }
+    
+      .contact-form{
+        padding-left: .5rem;
+        width: 100%;
+        margin-top: 3.5rem;
+        align-content: center;
+      }
+    
+      .name_Input{
+        margin-top: .6rem;
+        margin-bottom: .2rem;
+      }
+    
+      .email_Input{
+        margin-top: .6rem;
+        margin-bottom: .2rem;
+      }
+    
+      .comentarios_Input{
+        margin-top: .6rem;
+        margin-bottom: .2rem;
+      }
+    
+      .input_Text{
+          width: 340px;
+        }
+    
+        .input_Email{
+          width: 340px;
+        }
+    
+        .input_TextArea{
+          width: 340px;
+        }
+    
+      .button-style{
+        width: 350px;
+      }
+    }
+    
+    @media(min-width: 688px){
+    
+      .content-data{
+        width: 100%; /*Antes 60%*/
+      }
+      .contact-form{
+        justify-content: center;
+      }
+    }
+    
+    @media(min-width: 768px){
+    
+      .content-contact{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+      }
+    
+      .contact-form{
+        width: 100%;
+      }
+    }
+    
+    @media(min-width: 1024px){
+      .content-contact{
+        justify-content: center;
+        flex-direction: row;
+        align-items: flex-start;
+      }
+    
+      .content-data{
+        width: 50%;
+      }
+    
+      .contact-form{
+        width: 50%;
+        margin-top: 0;
+      }
+    }
+    
+    
+      @media(min-width: 1280px){
+        .content-contact{
+          justify-content: center;
+          flex-direction: row;
+        }
+    
+        .content-data{
+          width: 50%;
+        }
+    
+        .contact-form{
+          width: 50%;
+        }
+      }
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+      

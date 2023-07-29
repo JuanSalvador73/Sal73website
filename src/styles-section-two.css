@@ -1,0 +1,113 @@
+
+/***************************** Estilos Seccion Second*****************************/
+
+    /* Queda como container second */
+    .second{
+      flex-direction: column;
+      padding-top: 1rem;
+      margin-top: 5%;
+      margin-left: 50%;
+      padding-left: 1.5%;
+      /*border: 1px solid greenyellow;*/
+      align-items: center;
+      z-index: 2;
+    }
+
+    .skill-box{
+      display: flex;
+      align-items: center;
+      flex-direction: column;
+    }
+
+    /*Este va como span dentro de un subtitulo*/
+    .subSectionTitle{
+      font-family: 'DM Sans', sans-serif;
+      color: white;
+    }
+
+    .container-boxes{
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-around;
+      align-items: center;
+      padding: .8rem;
+    }
+
+    .box{
+      width: 140px;
+      border: 1px solid #1881AA;
+      margin-bottom: 1rem;
+      margin-right: .8px;
+      border-radius: 8px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      height: 145px;
+      background-color: #00000C;
+      position: relative;
+      overflow: hidden;
+      cursor: pointer;
+    }
+
+    .box:hover .box_info{
+      transform: translateY(0px);
+      transition: .5s ease-in-out;
+  }
+
+    .box_info{
+      width: 140px;
+      margin-bottom: .8rem;
+      margin-right: .8px;
+      border-radius: 8px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      height: 145px;
+      position: absolute;
+      transform: translateY(145px);
+      transition: .5s ease-in-out;
+      background-color: rgba(22, 54, 102, 0);
+    }
+
+    .box img{
+      margin-top: 1rem;
+      margin-bottom: .8rem;
+      padding: 1rem;
+      width: 4.5rem;
+      /*background-color: inherit;*/
+    }
+
+    .box p{
+      font-size: 1rem;
+      color: white;
+      /*background-color: inherit;*/
+      margin-top: 7rem;
+    }
+
+
+
+/******************Medias Queries*****************/
+
+
+
+
+@media(max-width: 768px){
+    .subSectionTitle{
+        font-size: 2.8rem;
+        font-weight: 100;
+      }
+}
+
+@media(max-width: 414px){
+    .subSectionTitle{
+        font-size: 2.1rem;
+        font-weight: 100;
+      }
+}
+
+@media(max-width: 360px){
+    .subSectionTitle{
+        font-size: 1.8rem;
+        font-weight: 100;
+      }
+}
